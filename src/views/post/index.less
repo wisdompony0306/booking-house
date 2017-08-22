@@ -1,0 +1,102 @@
+@import '../../asset/base.less';
+
+@fontsize24: 12px;
+@fontsize38: 19px;
+.postBox {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+
+  padding: 0 0 px2rem(110px);
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  .tips {
+    width: 100%;
+    height: px2rem(84px);
+    line-height: px2rem(84px);
+    font-size: @fontsize24;
+    color: #9B9B9B;
+    padding-left: px2rem(50px);
+    padding-right: px2rem(25px);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+
+    i {
+      margin-right: px2rem(15px);
+      display: inline-block;
+      width: px2rem(29px);
+      height: px2rem(30px);
+      background: data-uri("//img.58cdn.com.cn/fangrs/img/9f1341ecbf91d092bc2c16e42482b46b.png") center no-repeat;
+      background-size: cover;
+      vertical-align: text-top;
+    }
+  }
+  .formBox {
+    width: 100%;
+    padding: 0 px2rem(30px);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    .rowBox {
+      width: 100%;
+      height: px2rem(140px);
+      line-height: px2rem(140px);
+      text-align: center;
+      font-size: px2rem(16px);
+      color: #666;
+
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+
+      &.lineBottom {
+        border-bottom: 1px solid #F3F3F3;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+
+      &.lineTop {
+        border-top: 1px solid #F3F3F3;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+    }
+  }
+
+  .protocolJump {
+    font-size: px2rem(28px);
+    text-align: center;
+    font-weight: 300;
+    padding-top: px2rem(45px);
+    width: 100vw;
+    i {
+      margin-right: px2rem(5px);
+      height: px2rem(32px);
+      width: px2rem(32px);
+    }
+    .agreeIcon {
+      display: inline-block;
+      height: px2rem(32px);
+      width: px2rem(32px);
+      vertical-align: middle;
+      background: data-uri("//img.58cdn.com.cn/fangrs/img/f75eb1ce9e72059d8579ad13440f5add.png") center no-repeat;
+      background-size: cover;
+      &.checked {
+        background: data-uri("//img.58cdn.com.cn/fangrs/img/93acfa38938a12bbab378627de091c5e.png") center no-repeat;
+        background-size: cover;
+      }
+    }
+    .openProtocol {
+      font-size: px2rem(28px);
+      color: #1993c3;
+      text-decoration: none;
+    }
+  }
+
+}

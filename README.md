@@ -1,5 +1,5 @@
-# booking-house
-h5交易闭环
+#租房订单
+
 ## 技术简介
 
 | **技术** | **描述** |
@@ -35,7 +35,7 @@ h5交易闭环
 │   │	└── index.js                    # 组件整体导出文件
 │   ├── libs                            # 第三方库文件
 │   ├── plugins                         # vue插件
-│   │	├── appShim.js                  # app_****.js封装,不直接调用
+│   │	├── appShim.js                  # app_20264.js封装,不直接调用
 │   │	├── request.js                  # http请求封装 get post jsonp
 │   │	└── vue.ext.js                  # 插件扩展
 │   ├── service                         # 后端相关
@@ -50,7 +50,7 @@ h5交易闭环
 
 ## 项目安装与运行
 
-    git clone git@gitlab.***corp.com:fangfe/fang-booking.git
+    git clone git@gitlab.58corp.com:fangfe/fang-booking.git
     npm install
     npm run build
     npm run dev
